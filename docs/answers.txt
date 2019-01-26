@@ -1,0 +1,6 @@
+The RoleGame prototype uses polymorphism. Looking at the implementation files, it is apparant that there is a hierarchy of
+classes that are related. Polymorphism uses virtual functions as well as function name overloading which RoleGame presents.
+For example, the function hit(double armor) is named the same for every weapon derived class and is
+also presented as a virtual function. This function essentially is a member function of the base class 'Weapon', but is 
+overridden in the derived classes, 'CommonSpear', 'SimpleHammer' , etc. This allows each individual function to have
+a unique function definition than the base class hit(double armor) function definition.
