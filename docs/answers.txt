@@ -1,0 +1,38 @@
+(a)
+  Counting objects: 4, done.
+  Delta compression using up to 8 threads.
+  Compressing objects: 100% (3/3), done.
+  Writing objects: 100% (4/4), 362 bytes | 0 bytes/s, done.
+  Total 4 (delta 1), reused 0 (delta 0)
+  remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+  To https://github.com/snc16f/Assignment1.git
+  ddba7f7..88b3225  master -> master
+(b)5 commits have been completed between me and Javier.The command used to get this information
+  is git shortlog.
+(c).gitignore was last modified on Thu Jan 10 16:45:38 2019 -0500. The command used to see this information
+  is git log --follow -- .gitignore.
+(d)1.A branch is used to contain pointers to snapshots of changes made within projects
+   2.This makes it much harder to merge unwanted code into the main code base
+(e)Git log shows the user the history of the project, allows them to filter it, and search for changes.
+  While git status only allows the user to see the state of the current working directory and staging area.
+(f)git log Weapon.h
+(g)git log --grep="file"
+(h)I.Inheritance- Inheritance is when classes are derived from a base class and they inherit functions as 
+    well as the base class member data.
+II. Polymorphism- There are 2 types of polymorphism: Runtime polymorphism and compile time polymorpism.
+  Runtime polymorphism occurs when you have classes derived from a base class and they contain the same
+  methods as the base class. In order to determine which method to use, it must be determined at runtime. 
+  Compile time polymorphism is determined by the amount of parameters passed in a method during run time. 
+  This is what determines which method to use, since they are not the same as in runtime polymorphism.   
+III.Encapsulation- Encapsulation prevents methods and member data from being accesssed outside of the class.
+  In other words, it essentially combines the data and methods in the class and protects them from anyone acessing them.
+  The purpose for this is to keep data about objects that do not need to be given to users, hidden.
+(i)Dictator and Lieutenants workflow contains only one central repository where one dictator is allowed to push to it. The rest of the developers must
+  push their changes to the dictator before final changes are made to the repository. The Integration management however
+  allows each developer to have their own public repository which they can push and pull from. The integration manager
+  is the one who then can look at the push/pulls done by each developer and push it to the blessed repository.
+(j)Using the Dictator and Lieutenants minimizes the chaos between pushing/pulling to the repository within all 100 people. 
+  Making minimal changes and getting it approved by the dictator little by litle is a much more efficient strategy
+  than allowing everyone to make changes to files. This process will start to become tedious work for developers as they will have to 
+  continuously check to see if the new and improved code from others effected theirs.
+
