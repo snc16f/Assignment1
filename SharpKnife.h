@@ -1,9 +1,3 @@
-/* 
- * File:   SharpKnife.h
- * Author: Samantha Chaves (snc16f)
- *
- */
-
 #include <string>
 #include <cstdlib>
 #include "Weapon.h"
@@ -15,15 +9,14 @@
  * Defines the behavior of a Sharp Knife(hitpoint = number >0)*/
 class SharpKnife: public Weapon {
 public:
-
-    SharpKnife() : Weapon("Sharp knife", 10.0) { //Calls Weapon(name, hitpoints) constructor with values sharp knife
+    
+    SharpKnife() : Weapon("Sharp knife", 10.0) { //Calls Weapon(name, hitpoints) constructor with values sharp knife. 10 hitpoints
     }
-
+    
     virtual ~SharpKnife() {};
-
     virtual double hit(double armor);
 
 };
 
-#endif /* SHARPKNIFE */
+#endif /* SHARPKNIFE_H */
 

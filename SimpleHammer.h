@@ -1,5 +1,4 @@
-
-/* 
+/*
  * File:   SimpleHammer.h
  * Author: Samantha Chaves (snc16f)
  *
@@ -17,14 +16,12 @@
  */
 class SimpleHammer : public Weapon {
 public:
-
+    
     SimpleHammer() : Weapon("SimpleHammer", 25) { //Calls Weapon(name, hitpoints) constructor with values Simple hammer
     }
-
-    virtual ~SimpleHammer() {};
-
     virtual double hit(double armor);
 
+    
 };
 
-#endif /* SIMPLEHAMMER */
+#endif /* SIMPLEHAMMER_H */
