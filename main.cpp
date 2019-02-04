@@ -48,8 +48,8 @@ int main(int argc, char** argv) {
     delete(weapon);
     
     weapon = WeaponFactory::getInstance()->getWeapon("hammer");
-    simulateWeapon(weapon, armor);
-    delete(weapon);
+    simulateWeapon(weapon,armor);
+    delete(weapon);   
     return 0;
 }
 

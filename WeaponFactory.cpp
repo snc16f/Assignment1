@@ -34,11 +34,13 @@ Weapon * WeaponFactory::getWeapon(std::string name) {
     if (name.compare("knife") == 0) {
         return new SharpKnife();
     }
-    if (name.compare("random sword") == 0) {
-        return new CrazyRandomSword();
-    }
+
     if (name.compare("hammer") == 0) {
         return new SimpleHammer();
+    }
+
+    if (name.compare("random sword") == 0) {
+        return new CrazyRandomSword();
     }
     throw "Invalid weapon";
 }
